@@ -1,0 +1,22 @@
+18-12: Build project done
+25-12: Build back end done
+5-1  : Build front end
+
+
+Web bán áo thun + phụ kiện => Lấy hình ảnh từ các trang bán áo thun nước ngoài + redesign + có sẵn(Ví + Thắt lưng)
+ + Có sẵn(nhà viên)
+ + Mẫu áo => tìm xưởng in áo => Hỏi dũng => bán áo thể thao => tạo tool cho in áo online
+ 
+ 
+ Hệ thống:
+	Quản lý NCC
+	Quản lý NVC
+	Quản lý chi phí
+	Quản lý danh mục
+	Quản lý sản phẩm
+	Quản lý đơn hàng
+	Quản lý quảng cáo
+	Quản lý User
+	CRM:
+	ERP: Tồn kho
+	BI : Sản phẩm mua nhiều, sản phẩm liên quan theo nhu cầu từng người
