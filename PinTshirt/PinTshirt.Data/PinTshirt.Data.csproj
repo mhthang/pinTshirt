@@ -62,14 +62,19 @@
     <Compile Include="EntityFramework\DbFactory.cs" />
     <Compile Include="EntityFramework\Disposable.cs" />
     <Compile Include="EntityFramework\IDbFactory.cs" />
-    <Compile Include="EntityFramework\ISCDataContext.cs" />
+    <Compile Include="EntityFramework\IPSDataContext.cs" />
     <Compile Include="EntityFramework\PSDataContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Repository.cs" />
+    <Compile Include="Repositories\SKRepositoryAutoFacModule.cs" />
+    <Compile Include="Repositories\UnitOfWork.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\PinTshirt.Commons\PinTshirt.Commons.csproj">
+      <Project>{6f5dbf33-07e3-43bc-9b77-00d22838c4ed}</Project>
+      <Name>PinTshirt.Commons</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PinTshirt.Domain\PinTshirt.Domain.csproj">
       <Project>{CF247098-3AEA-455F-9025-0B54470DA053}</Project>
       <Name>PinTshirt.Domain</Name>
