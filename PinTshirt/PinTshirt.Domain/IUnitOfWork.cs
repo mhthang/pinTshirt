@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace PinTshirt.Domain
 {
-    public class Class1
+    public class IUnitOfWork
     {
-
+        int SaveChanges();
     }
 }

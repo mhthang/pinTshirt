@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="IUnitOfWork.cs" />
     <Compile Include="Common\Models\IEntityTrackingCreation.cs" />
     <Compile Include="Common\Models\IEntityTrackingModified.cs" />
     <Compile Include="IEntity.cs" />
